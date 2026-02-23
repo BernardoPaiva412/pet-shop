@@ -1,0 +1,21 @@
+{
+  "name": "petshop",
+  "version": "1.0.0",
+  "description": "Projeto utilizado como base de ensino e treinamento dos cursos de **Informática**, principalmente de nível técnico — **IFSP**",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoPaiva412/PetShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BernardoPaiva412/PetShop/issues"
+  },
+  "homepage": "https://github.com/BernardoPaiva412/PetShop#readme"
+}

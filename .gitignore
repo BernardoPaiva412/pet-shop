@@ -1,0 +1,33 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# dotenv environment variable files
+.env
+.env.development
+.env.test
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+tsconfig.tsbuildinfo
+
+# Node.js
+.ntvs_analysis.dat
+node_modules/
+**/node_modules/
+
+# SSH Keys
+*.pem
+*.ppk
+
+#Other Files
+*.ini
+
+# temp directory
+.temp
+.tmp
