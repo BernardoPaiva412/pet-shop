@@ -16,7 +16,7 @@ server.use(express.static(path.join(__dirname, '../public')));
 server.use(mainRouter);
 
 server.use((req, res) => {
-    res.send('404 — Not Found')
+    res.send('pages/404')
 })
 
-server.listen(port || 8000);
+server.listen(process.env.PORT);
