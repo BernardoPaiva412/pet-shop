@@ -226,30 +226,10 @@ export const Pet = {
     },
 
     getFromType: (type: PetType): Pet[] => {
-        // return data.filter(item => {
-        //     // if (item.type === type) {
-        //     //     return true;
-        //     // } else {
-        //     //     return false;
-        //     // }
-
-        //     return (item.type === type)
-        // })
-
         return data.filter(item => item.type === type)
     },
 
     getFromName: (name: string): Pet[] => {
-        // return data.filter(item => {
-        //     // if(item.name.indexOf(name) > -1) {
-        //     //     return true
-        //     // } else {
-        //     //     return false
-        //     // }
-
-        //     return (item.name.indexOf(name) > -1)
-        // })
-
         return data.filter(item =>
             item.name.toLowerCase().indexOf(name.toLowerCase()) > -1
         )
